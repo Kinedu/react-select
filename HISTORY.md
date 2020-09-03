@@ -812,7 +812,7 @@ version; sorry about that!
 	[Dave Brotherstone](https://github.com/bruderstein)
 * changed; Disabled options now appear in the search results , thanks
 	[Dave Brotherstone](https://github.com/bruderstein)
-* fixed; asyncOptions are reloaded on componentWillReceiveProps when the value
+* fixed; asyncOptions are reloaded on UNSAFE_componentWillReceiveProps when the value
 	has changed, thanks [Francis Cote](https://github.com/drfeelgoud)
 * added; `cacheAsyncResults` prop (default `true`) now controls whether the
 	internal cache is used for `asyncOptions`
@@ -855,7 +855,7 @@ version; sorry about that!
 
 ## v0.5.4 / 2015-07-06
 
-* fixed; regression in 0.5.3 that broke componentWillMount, sorry everyone!
+* fixed; regression in 0.5.3 that broke UNSAFE_componentWillMount, sorry everyone!
 * added; `addLabelText` prop for customising the "add {label}?" text when in
 	tags mode, thanks [Fenn](https://github.com/Fenntasy)
 
